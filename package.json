@@ -7,15 +7,14 @@
     "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --open"
   },
-  "repository": {
-  },
+  "repository": {},
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "bugs": {
-  },
+  "bugs": {},
   "homepage": "",
   "devDependencies": {
+    "axios": "^0.18.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
@@ -32,5 +31,8 @@
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.11",
     "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "redux-thunk": "^2.3.0"
   }
 }
